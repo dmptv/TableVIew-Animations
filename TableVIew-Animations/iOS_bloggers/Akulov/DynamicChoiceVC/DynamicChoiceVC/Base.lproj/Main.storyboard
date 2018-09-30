@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="DynamicChoiceVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome View Controller" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xc1-Ck-GLO">
+                                <rect key="frame" x="87.5" y="169" width="200" height="57.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="elH-61-VqG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firebaselogo" translatesAutoresizingMaskIntoConstraints="NO" id="B4E-BL-X0Q">
+                                <rect key="frame" x="137.5" y="45" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1we-80-Ebd"/>
+                                    <constraint firstAttribute="width" secondItem="B4E-BL-X0Q" secondAttribute="height" multiplier="1:1" id="YZO-W0-fuU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B4E-BL-X0Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="74d-cw-AFP"/>
+                            <constraint firstItem="Xc1-Ck-GLO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8v9-Np-UPH"/>
+                            <constraint firstItem="B4E-BL-X0Q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Aqh-E2-IdP"/>
+                            <constraint firstItem="Xc1-Ck-GLO" firstAttribute="top" secondItem="B4E-BL-X0Q" secondAttribute="bottom" constant="24" id="lod-eA-tT7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="222" y="125"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Gs7-f0-4dT">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="dHc-oH-54x" customClass="HomeViewController" customModule="DynamicChoiceVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CY2-rn-Qn9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logged in " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZN-6l-hka">
+                                <rect key="frame" x="87.5" y="170" width="200" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ROd-A8-iYr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fZN-6l-hka" firstAttribute="centerX" secondItem="Zh6-9f-GFh" secondAttribute="centerX" id="Gce-4A-paT"/>
+                            <constraint firstItem="fZN-6l-hka" firstAttribute="top" secondItem="Zh6-9f-GFh" secondAttribute="top" constant="150" id="Kg2-8d-6Q3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zh6-9f-GFh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EO3-xP-lWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="firebaselogo" width="180" height="180"/>
+    </resources>
+</document>

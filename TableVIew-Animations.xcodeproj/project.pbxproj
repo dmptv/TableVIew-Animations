@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3569BF215FAFE900EBBB00 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B5215FAFE900EBBB00 /* UIViewXRadialGradient.swift */; };
+		9D3569C0215FAFE900EBBB00 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B6215FAFE900EBBB00 /* UITextFieldX.swift */; };
+		9D3569C1215FAFE900EBBB00 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B7215FAFE900EBBB00 /* UIButtonX.swift */; };
+		9D3569C2215FAFE900EBBB00 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B8215FAFE900EBBB00 /* UILabelX.swift */; };
+		9D3569C3215FAFE900EBBB00 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B9215FAFE900EBBB00 /* UIViewAnchorPoint.swift */; };
+		9D3569C4215FAFE900EBBB00 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569BA215FAFE900EBBB00 /* UIViewControllerX.swift */; };
+		9D3569C5215FAFE900EBBB00 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569BB215FAFE900EBBB00 /* UIImageViewX.swift */; };
+		9D3569C6215FAFE900EBBB00 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569BC215FAFE900EBBB00 /* UIViewX.swift */; };
+		9D3569C7215FAFE900EBBB00 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569BD215FAFE900EBBB00 /* UIVisualEffectViewX.swift */; };
+		9D3569C8215FAFE900EBBB00 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569BE215FAFE900EBBB00 /* UISliderX.swift */; };
+		9D3569CA215FBEE600EBBB00 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */; };
+		9D508BD9215FE2050021DB0E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D508BD8215FE2050021DB0E /* Colors.swift */; };
+		9D508BDD2160844D0021DB0E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D508BDC2160844D0021DB0E /* Icons.swift */; };
 		9DD3F554215F564E009A9DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F553215F564E009A9DA0 /* AppDelegate.swift */; };
 		9DD3F557215F564E009A9DA0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F556215F564E009A9DA0 /* Model.swift */; };
 		9DD3F559215F564E009A9DA0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F558215F564E009A9DA0 /* Data.swift */; };
-		9DD3F55C215F564E009A9DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD3F55A215F564E009A9DA0 /* Main.storyboard */; };
 		9DD3F55F215F564E009A9DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD3F55E215F564E009A9DA0 /* Main.storyboard */; };
 		9DD3F561215F564E009A9DA0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F560215F564E009A9DA0 /* TableViewCell.swift */; };
 		9DD3F564215F564E009A9DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F563215F564E009A9DA0 /* ViewController.swift */; };
@@ -19,11 +31,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D3569B5215FAFE900EBBB00 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		9D3569B6215FAFE900EBBB00 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		9D3569B7215FAFE900EBBB00 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		9D3569B8215FAFE900EBBB00 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		9D3569B9215FAFE900EBBB00 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		9D3569BA215FAFE900EBBB00 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		9D3569BB215FAFE900EBBB00 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		9D3569BC215FAFE900EBBB00 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		9D3569BD215FAFE900EBBB00 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		9D3569BE215FAFE900EBBB00 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		9D508BD8215FE2050021DB0E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9D508BDC2160844D0021DB0E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		9DD3F550215F564E009A9DA0 /* TableVIew-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableVIew-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD3F553215F564E009A9DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD3F556215F564E009A9DA0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9DD3F558215F564E009A9DA0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		9DD3F55B215F564E009A9DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD3F55E215F564E009A9DA0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9DD3F560215F564E009A9DA0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9DD3F563215F564E009A9DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D3569B4215FAFE900EBBB00 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				9D3569B5215FAFE900EBBB00 /* UIViewXRadialGradient.swift */,
+				9D3569B6215FAFE900EBBB00 /* UITextFieldX.swift */,
+				9D3569B7215FAFE900EBBB00 /* UIButtonX.swift */,
+				9D3569B8215FAFE900EBBB00 /* UILabelX.swift */,
+				9D3569B9215FAFE900EBBB00 /* UIViewAnchorPoint.swift */,
+				9D3569BA215FAFE900EBBB00 /* UIViewControllerX.swift */,
+				9D3569BB215FAFE900EBBB00 /* UIImageViewX.swift */,
+				9D3569BC215FAFE900EBBB00 /* UIViewX.swift */,
+				9D3569BD215FAFE900EBBB00 /* UIVisualEffectViewX.swift */,
+				9D3569BE215FAFE900EBBB00 /* UISliderX.swift */,
+			);
+			name = DesignableX;
+			path = "../../../Documents/18_octobre/Helpers+Extentions/DesignableX";
+			sourceTree = "<group>";
+		};
 		9DD3F547215F564E009A9DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +104,7 @@
 		9DD3F552215F564E009A9DA0 /* TableVIew-Animations */ = {
 			isa = PBXGroup;
 			children = (
-				9DD3F553215F564E009A9DA0 /* AppDelegate.swift */,
-				9DD3F55A215F564E009A9DA0 /* Main.storyboard */,
-				9DD3F565215F564F009A9DA0 /* Assets.xcassets */,
-				9DD3F567215F564F009A9DA0 /* LaunchScreen.storyboard */,
+				9DD3F570215FAE41009A9DA0 /* Resources */,
 				9DD3F56A215F564F009A9DA0 /* Info.plist */,
 				9DD3F555215F564E009A9DA0 /* Model */,
 				9DD3F55D215F564E009A9DA0 /* View */,
@@ -86,6 +125,7 @@
 		9DD3F55D215F564E009A9DA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DD3F567215F564F009A9DA0 /* LaunchScreen.storyboard */,
 				9DD3F55E215F564E009A9DA0 /* Main.storyboard */,
 				9DD3F560215F564E009A9DA0 /* TableViewCell.swift */,
 			);
@@ -95,9 +135,22 @@
 		9DD3F562215F564E009A9DA0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9DD3F553215F564E009A9DA0 /* AppDelegate.swift */,
 				9DD3F563215F564E009A9DA0 /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		9DD3F570215FAE41009A9DA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D3569B4215FAFE900EBBB00 /* DesignableX */,
+				9DD3F565215F564F009A9DA0 /* Assets.xcassets */,
+				9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */,
+				9D508BD8215FE2050021DB0E /* Colors.swift */,
+				9D508BDC2160844D0021DB0E /* Icons.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD3F55C215F564E009A9DA0 /* Main.storyboard in Resources */,
 				9DD3F569215F564F009A9DA0 /* LaunchScreen.storyboard in Resources */,
 				9DD3F566215F564F009A9DA0 /* Assets.xcassets in Resources */,
 				9DD3F55F215F564E009A9DA0 /* Main.storyboard in Resources */,
@@ -172,9 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3569C3215FAFE900EBBB00 /* UIViewAnchorPoint.swift in Sources */,
+				9D3569C2215FAFE900EBBB00 /* UILabelX.swift in Sources */,
 				9DD3F564215F564E009A9DA0 /* ViewController.swift in Sources */,
+				9D508BD9215FE2050021DB0E /* Colors.swift in Sources */,
+				9D3569CA215FBEE600EBBB00 /* FloatingActionButton.swift in Sources */,
 				9DD3F554215F564E009A9DA0 /* AppDelegate.swift in Sources */,
+				9D3569BF215FAFE900EBBB00 /* UIViewXRadialGradient.swift in Sources */,
 				9DD3F561215F564E009A9DA0 /* TableViewCell.swift in Sources */,
+				9D3569C8215FAFE900EBBB00 /* UISliderX.swift in Sources */,
+				9D3569C4215FAFE900EBBB00 /* UIViewControllerX.swift in Sources */,
+				9D3569C1215FAFE900EBBB00 /* UIButtonX.swift in Sources */,
+				9D3569C7215FAFE900EBBB00 /* UIVisualEffectViewX.swift in Sources */,
+				9D3569C0215FAFE900EBBB00 /* UITextFieldX.swift in Sources */,
+				9D3569C5215FAFE900EBBB00 /* UIImageViewX.swift in Sources */,
+				9D508BDD2160844D0021DB0E /* Icons.swift in Sources */,
+				9D3569C6215FAFE900EBBB00 /* UIViewX.swift in Sources */,
 				9DD3F559215F564E009A9DA0 /* Data.swift in Sources */,
 				9DD3F557215F564E009A9DA0 /* Model.swift in Sources */,
 			);
@@ -183,14 +248,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DD3F55A215F564E009A9DA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD3F55B215F564E009A9DA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DD3F567215F564F009A9DA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
