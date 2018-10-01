@@ -9,6 +9,16 @@
 import UIKit
 
 struct Icons {
+    // for background
+    static var background: UIImage {
+        return UIImage(named: "background")!
+    }
+    
+    static var bridge: UIImage {
+        return UIImage(named: "bridge")!
+    }
+    
+    // for menu view
     static var clock: UIImage {
         return UIImage(named: "clock")!
     }
@@ -21,14 +31,7 @@ struct Icons {
         return UIImage(named: "pencil")!
     }
     
-    static var background: UIImage {
-        return UIImage(named: "background")!
-    }
-    
-    static var bridge: UIImage {
-        return UIImage(named: "bridge")!
-    }
-    
+    // for top controls
     static var menu: UIImage {
         return UIImage(named: "menu")!
     }
