@@ -39,4 +39,8 @@ struct Icons {
     static var search: UIImage {
         return UIImage(named: "search")!
     }
+    
+    static var weatherIcon: UIImage {
+        return UIImage(named: "sunny")!
+    }
 }

@@ -20,6 +20,8 @@
 		9D3569CA215FBEE600EBBB00 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */; };
 		9D508BD9215FE2050021DB0E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D508BD8215FE2050021DB0E /* Colors.swift */; };
 		9D508BDD2160844D0021DB0E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D508BDC2160844D0021DB0E /* Icons.swift */; };
+		9D50B6C721626DD2006854A0 /* DayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50B6C621626DD2006854A0 /* DayWeather.swift */; };
+		9D50B6C921629AAD006854A0 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D50B6C821629AAD006854A0 /* Ubuntu-Regular.ttf */; };
 		9DD3F554215F564E009A9DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F553215F564E009A9DA0 /* AppDelegate.swift */; };
 		9DD3F557215F564E009A9DA0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F556215F564E009A9DA0 /* Model.swift */; };
 		9DD3F559215F564E009A9DA0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3F558215F564E009A9DA0 /* Data.swift */; };
@@ -44,6 +46,8 @@
 		9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 		9D508BD8215FE2050021DB0E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9D508BDC2160844D0021DB0E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		9D50B6C621626DD2006854A0 /* DayWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeather.swift; sourceTree = "<group>"; };
+		9D50B6C821629AAD006854A0 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		9DD3F550215F564E009A9DA0 /* TableVIew-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableVIew-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD3F553215F564E009A9DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD3F556215F564E009A9DA0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 			path = "../../../Documents/18_octobre/Helpers+Extentions/DesignableX";
 			sourceTree = "<group>";
 		};
+		9D50B6CA21629AB3006854A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D50B6C821629AAD006854A0 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9DD3F547215F564E009A9DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9DD3F556215F564E009A9DA0 /* Model.swift */,
+				9D50B6C621626DD2006854A0 /* DayWeather.swift */,
 				9DD3F558215F564E009A9DA0 /* Data.swift */,
 			);
 			name = Model;
@@ -144,6 +157,7 @@
 		9DD3F570215FAE41009A9DA0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9D50B6CA21629AB3006854A0 /* Fonts */,
 				9D3569B4215FAFE900EBBB00 /* DesignableX */,
 				9DD3F565215F564F009A9DA0 /* Assets.xcassets */,
 				9D3569C9215FBEE600EBBB00 /* FloatingActionButton.swift */,
@@ -211,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D50B6C921629AAD006854A0 /* Ubuntu-Regular.ttf in Resources */,
 				9DD3F569215F564F009A9DA0 /* LaunchScreen.storyboard in Resources */,
 				9DD3F566215F564F009A9DA0 /* Assets.xcassets in Resources */,
 				9DD3F55F215F564E009A9DA0 /* Main.storyboard in Resources */,
@@ -238,6 +253,7 @@
 				9D3569C7215FAFE900EBBB00 /* UIVisualEffectViewX.swift in Sources */,
 				9D3569C0215FAFE900EBBB00 /* UITextFieldX.swift in Sources */,
 				9D3569C5215FAFE900EBBB00 /* UIImageViewX.swift in Sources */,
+				9D50B6C721626DD2006854A0 /* DayWeather.swift in Sources */,
 				9D508BDD2160844D0021DB0E /* Icons.swift in Sources */,
 				9D3569C6215FAFE900EBBB00 /* UIViewX.swift in Sources */,
 				9DD3F559215F564E009A9DA0 /* Data.swift in Sources */,
