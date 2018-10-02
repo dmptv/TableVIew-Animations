@@ -5,6 +5,7 @@ class ViewController: UIViewController {
     
     struct CellIdentifiers {
         static let tableViewCell = "tableViewCell"
+        static let cellImages = "cellImages"
     }
     
     @IBOutlet weak var tableView: UITableView!
@@ -36,6 +37,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         tableView.dataSource = self
+        tableView.delegate = self 
         
         Data.getDayWeather { [weak self] data in 
             guard let strongSelf = self, let data = data else { return }
@@ -50,6 +52,7 @@ class ViewController: UIViewController {
         Data.getData { (data) in
             self.tableData = data
             self.tableView.reloadData()
+            self.animateTableviewCells()
         }
         
         closeMenu()
@@ -67,12 +70,50 @@ class ViewController: UIViewController {
         }
     }
     
+}
+
+//MARK: - Methods
+
+extension ViewController {
+    
+    private func closeMenu() {
+        menuView.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        
+        pencilButton.transform = CGAffineTransform(translationX: 0, y: 15)
+        chatButton.transform = CGAffineTransform(translationX: 11, y: 11)
+        clockButton.transform = CGAffineTransform(translationX: 15, y: 0)
+    }
+    
+    private func setupAnimatedControls() {
+        dayView.transform = CGAffineTransform(translationX: -dayView.frame.width, y: 0)
+        weatherView.transform = CGAffineTransform(translationX: weatherView.frame.width, y: 0)
+    }
+    
+    private func animateTableviewCells() {
+        let cells: [UITableViewCell] = tableView.visibleCells
+        
+        cells.forEach {
+            $0.transform = CGAffineTransform(translationX: view.frame.width, y: 0)
+        }
+        
+        var delay = 0.5
+        cells.forEach { cell in
+            UIView.animate(withDuration: 0.2, delay: delay, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: [], animations: {
+                
+                cell.transform = .identity
+                
+            }) { _ in }
+            
+            delay += 0.2
+        }
+    }
     
 }
 
 // MARK: - Actions
 
 extension ViewController {
+    
     @IBAction func menuTapped(_ sender: FloatingActionButton) {
         UIView.animate(withDuration: 0.3) {
             if self.menuView.transform == .identity {
@@ -89,20 +130,8 @@ extension ViewController {
                 self.clockButton.transform = .identity
             }
         })
-       
     }
     
-    func closeMenu() {
-        menuView.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-        pencilButton.transform = CGAffineTransform(translationX: 0, y: 15)
-        chatButton.transform = CGAffineTransform(translationX: 11, y: 11)
-        clockButton.transform = CGAffineTransform(translationX: 15, y: 0)
-    }
-    
-    func setupAnimatedControls() {
-        dayView.transform = CGAffineTransform(translationX: -dayView.frame.width, y: 0)
-        weatherView.transform = CGAffineTransform(translationX: weatherView.frame.width, y: 0)
-    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -112,8 +141,61 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.tableViewCell) as! TableViewCell
+        let model = tableData[indexPath.row]
+        var cell: CellWithSetup & UITableViewCell
+        
+        if model.images.count > 0 {
+            cell = (tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.cellImages)) as! TableViewCellImages
+        } else {
+            cell = (tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.tableViewCell)) as! TableViewCell
+        }
+        
         cell.setup(model: tableData[indexPath.row])
         return cell
     }
+    
 }
+
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let model = tableData[indexPath.row]
+        
+        var height: CGFloat
+
+        if model.images.count > 0 {
+            height = 100
+        } else {
+           height = 66
+        }
+        return height
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

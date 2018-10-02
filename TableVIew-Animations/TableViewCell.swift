@@ -8,18 +8,27 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+protocol CellWithSetup {
+    func setup(model: Model)
+}
+
+class TableViewCell: UITableViewCell, CellWithSetup {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
-    @IBOutlet weak var cellImageView: UIImageView!
     @IBOutlet weak var data1Label: UILabel!
     @IBOutlet weak var data2Label: UILabel!
-
+    
     func setup(model: Model) {
         titleLabel.text = model.title
-        subtitleLabel.text = model.subTitle
-        cellImageView.image = model.image
+        
+        if model.subTitle.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines) == " " {
+            subtitleLabel.isHidden = true
+        } else {
+            subtitleLabel.isHidden = false
+            subtitleLabel.text = model.subTitle
+        }
+        
         data1Label.text = model.data1
         data2Label.text = model.data2
     }

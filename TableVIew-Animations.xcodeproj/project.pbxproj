@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D14EA7021636BED0039018A /* TableViewCellImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14EA6F21636BED0039018A /* TableViewCellImages.swift */; };
 		9D3569BF215FAFE900EBBB00 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B5215FAFE900EBBB00 /* UIViewXRadialGradient.swift */; };
 		9D3569C0215FAFE900EBBB00 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B6215FAFE900EBBB00 /* UITextFieldX.swift */; };
 		9D3569C1215FAFE900EBBB00 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3569B7215FAFE900EBBB00 /* UIButtonX.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D14EA6F21636BED0039018A /* TableViewCellImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellImages.swift; sourceTree = "<group>"; };
 		9D3569B5215FAFE900EBBB00 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
 		9D3569B6215FAFE900EBBB00 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		9D3569B7215FAFE900EBBB00 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9DD3F567215F564F009A9DA0 /* LaunchScreen.storyboard */,
 				9DD3F55E215F564E009A9DA0 /* Main.storyboard */,
 				9DD3F560215F564E009A9DA0 /* TableViewCell.swift */,
+				9D14EA6F21636BED0039018A /* TableViewCellImages.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				9D3569BF215FAFE900EBBB00 /* UIViewXRadialGradient.swift in Sources */,
 				9DD3F561215F564E009A9DA0 /* TableViewCell.swift in Sources */,
 				9D3569C8215FAFE900EBBB00 /* UISliderX.swift in Sources */,
+				9D14EA7021636BED0039018A /* TableViewCellImages.swift in Sources */,
 				9D3569C4215FAFE900EBBB00 /* UIViewControllerX.swift in Sources */,
 				9D3569C1215FAFE900EBBB00 /* UIButtonX.swift in Sources */,
 				9D3569C7215FAFE900EBBB00 /* UIVisualEffectViewX.swift in Sources */,

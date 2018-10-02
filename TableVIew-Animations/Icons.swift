@@ -43,4 +43,17 @@ struct Icons {
     static var weatherIcon: UIImage {
         return UIImage(named: "sunny")!
     }
+    
+    static var profileIcon1: UIImage {
+        return UIImage(named: "pr1")!
+    }
+    
+    static var profileIcon2: UIImage {
+        return UIImage(named: "pr2")!
+    }
+    
+    static var profileIcon3: UIImage {
+        return UIImage(named: "pr3")!
+    }
+  
 }
